@@ -1,0 +1,45 @@
+---
+title: 'Face Capture For Hologram'
+description: 'We will ask the user to take a picture on their phone on an app which will take into account their proportions and facial features and all that. The app will capture the users 3D model and facial features to make as the hologram.'
+---
+
+**User 3D Capture:**
+
+- Employ techniques like photogrammetry or structured light to reconstruct the users 3D geometry. Will include their proportions, body shape, and facial features to project in the real world
+
+- The app will likely guide the user to capture their entire body from multiple angles to ensure a complete 3D model.
+
+**Facial Capture:**
+
+- Use the app and phone camera to create a detailed 3D model of the users face.
+
+- Incorporate facial tracking capabilities to capture the users facial expressions, lip movements, and other details. There will be sensors on the AR glasses which will detect facial movement and match to the 3D model.
+
+In the demo below, we used Blender's Facebender
+<img height="200" src="images/face.PNG" />
+
+
+
+Transmission:
+Once the initial 3D model of the user is captured, it can be transmitted from the smartphone app central server for storage and further processing to the smartwatch.
+For real-time holographic projection, the app can stream the users facial tracking data and any body and face movements taken from the AR Glasses
+
+**Display of Holographic Projection:**
+
+- Once the holographic interference patterns are calculated, they are displayed using MEMs/DMDs.
+
+- The interference patterns interact with the incoming light to produce a three-dimensional holographic image.
+
+<img height="200" src="images/face4.PNG" />
+<img height="200" src="images/face3.PNG" />
+
+**Computer Generated Holograms:**
+
+Combined with computer generated holograms (CGH), micro electromagnetic systems (MEMS) and digital micromirror devices (DMDs) will be used to create free-space floating holographic images.
+
+ Normally, this is utilized with a spatial light modulator (SLM) but instead will be replaced with MEMS/DMDs to reconstruct the holographic wavelength and allow for it to be perceived as a holographic image floating in space. For the CGH Calculation, as expressed beforehand, the 3D model that was extracted from the user is used to numerically calculate the CGH data that encodes the holographic wavefront. This type of CGH encoding will be onto the arrays of the mirrors seen in MEMS/DMDs, further illuminated by a laser source such as fiber optic LED to combat some of the heat that is focused. 
+ 
+ By rapidly tilting oscillating micromirrors based on the CGH’s data, the mirror will function as a reflective element that reconstructs the original wavefront. After this, then the reconstructed wavefront will  form the 3D holographic image floating in space, acting similar to how it would’ve been using a bigger SLM.
+
+## Projected from the Watch
+<img height="200" src="images/project.jpeg" />

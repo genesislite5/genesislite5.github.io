@@ -1,0 +1,60 @@
+---
+title: 'Environment Scan'
+description: 'A LIDAR Scan will be utilized to scan the environment from the `Watch` and send it to the `AR Glasses`'
+---
+
+
+## Holographic Interference Patterns
+
+The holographic projection process will initiate from the wacth. 
+
+- The CGH (Computer Generated Hologram) algorithm will be employed to calculate the holographic interference patterns based on the received environment data. The algorithm repeatedly adjusts the phase distribution on the MEMs within the AR glasses to match the intensity distribution in the image planes.
+
+ ## Other algorithms available to be used: 
+
+<CardGroup cols={2}>
+  <Card
+    title="Fourier Transform Algorithms"
+    icon="palette"
+    href="https://mintlify.com/docs/settings/global"
+  >
+    This algorithm decomposes a holographic image into its spatial frequency components. The interference pattern required to reconstruct the image is then calculated based on these frequency components.
+  </Card>
+  <Card
+    title=" Gerchberg-Saxton Algorithm"
+    icon="code"
+    href="https://mintlify.com/docs/api-playground/openapi"
+  >
+    This is an iterative algorithm, commonly used for phase retrieval and it’s pretty fast too.
+  </Card>
+</CardGroup>
+
+The algorithm that we will use (look above) incorporates environmental cues captured by the smartwatch, such as changes in lighting conditions or object movement.
+
+
+<video controls width="640" height="320" autoPlay muted loop>
+  <source src="images/glasses.mp4" type="video/quicktime">
+    </source>
+</video>
+
+This is what is captured by the watch and what you will see through the AR Glasses
+
+<video controls width="740" height="420" autoPlay muted loop>
+  <source src="images/edit3.mp4" type="video/quicktime">
+    </source>
+</video>
+
+<video controls width="740" height="420" autoPlay muted loop>
+  <source src="images/edit2.mp4" type="video/quicktime">
+    </source>
+</video>
+
+
+
+
+
+
+
+
+
+
