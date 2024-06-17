@@ -1,6 +1,7 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Genesis v1",
+  "favicon": "/favicon.svg",
 
   "colors": {
     "primary": "#0D9373",
